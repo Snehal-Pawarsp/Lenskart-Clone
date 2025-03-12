@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenskart Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <!-- Upper Header Section -->
+    <div class="upper-header">
+        <nav>
+            <ul>
+                <li><a href="#"><i class="fas fa-bullseye"></i> Do More, Be More</a></li>
+                <li><a href="#"><i class="fas fa-map-marker-alt"></i> Store Locator</a></li>
+                <li><a href="#"><i class="fas fa-globe"></i> Singapore</a></li>
+                <li><a href="#"><i class="fas fa-globe"></i> UAE</a></li>
+                <li><a href="#"><i class="fas fa-glasses"></i> John Jacobs</a></li>
+                <li><a href="#"><i class="fas fa-eye"></i> Aqualens</a></li>
+                <li><a href="#"><i class="fas fa-users"></i> Cobrowsing</a></li>
+                <li><a href="#"><i class="fas fa-blog"></i> Engineering Blog</a></li>
+                <li><a href="#"><i class="fas fa-handshake"></i> Partner With Us</a></li>
+                <li><a href="#"><i class="fas fa-star"></i> Meet our Stars</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Lower Header Section -->
+    <div class="lower-header">
+        <div class="brand-name">
+            <span><i class="fas fa-glasses"></i> lenskart</span>
+        </div>
+        <div class="contact">
+            <i class="fas fa-phone"></i> 99998 99998
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="What are you looking for?">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="nav-icons">
+            <a href="#"><i class="fas fa-box"></i> Track Order</a>
+            <a href="#"><i class="fas fa-user"></i> Sign In & Sign Up</a>
+            <a href="#" class="icon"><i class="far fa-heart"></i> Wishlist</a>
+            <a href="#" class="icon"><i class="fas fa-shopping-cart"></i> Cart</a>
+        </div>
+        <div class="contact-link">
+            <a href="#"><i class="fas fa-headset"></i> Contact Us</a>
+        </div>
+    </div>
+</header>
+
+<!-- Navigation Section -->
+<div class="nav-container">
+    <nav class="nav-links">
+        <ul>
+            <li><a href="#"><i class="fas fa-glasses"></i> Eyeglasses</a></li>
+            <li><a href="#"><i class="fas fa-desktop"></i> Screen Glasses</a></li>
+            <li><a href="#"><i class="fas fa-child"></i> Kids Glasses</a></li>
+            <li><a href="#"><i class="fas fa-eye"></i> Contact Lenses</a></li>
+            <li><a href="#"><i class="fas fa-sun"></i> Sunglasses</a></li>
+            <li><a href="#"><i class="fas fa-home"></i> Home Eye-Test</a></li>
+            <li><a href="#"><i class="fas fa-map-marker-alt"></i> Store Locator</a></li>
+        </ul>
+    </nav>
+    <div class="nav-buttons">
+        <button class="try-on"><i class="fas fa-vr-cardboard"></i> 3D TRY ON</button>
+        <button class="blu"><i class="fas fa-tint"></i> BLU</button>
+        <button class="gold"><i class="fas fa-crown"></i> GOLD MAX</button>
+    </div>
+</div>
+
+<!-- Cards Section -->
+<div class="cards-container">
+    <div class="card">
+        <img src="eyeglass.jpg" alt="Eyeglasses">
+        <p>Eyeglasses</p>
+    </div>
+    <div class="card">
+        <img src="screenglass.jpg" alt="Sunglasses">
+        <p>Sunglasses</p>
+    </div>
+    <div class="card">
+        <img src="powerglass.jpg" alt="Screen Glasses">
+        <p>Screen Glasses</p>
+    </div>
+    <div class="card">
+        <img src="progressive.jpg" alt="Contact Lenses">
+        <p>Contact Lenses</p>
+    </div>
+    <div class="card">
+        <img src="screenglass.jpg" alt="Power Sunglasses">
+        <p>Power Sunglasses</p>
+    </div>
+    <div class="card">
+        <img src="eyeglass.jpg" alt="Progressive Lenses">
+        <p>Progressive Lenses</p>
+    </div>
+</div>
+
+<!-- Hero Section -->
+<section class="hero">
+    <img src="main.jpg" alt="Hero Image">
+</section>
+
+<!-- Purpose Section -->
+<section class="purpose">
+    <p class="subheading">Our Purpose</p>
+    <h1 class="main-heading">Do More, Be More.</h1>
+    <button class="discover-btn">Discover</button>
+</section>
+
+<!-- Carousel Section -->
+<div class="carousel">
+    <button class="prev" onclick="prevSlide()"><i class="fas fa-chevron-left"></i></button>
+    <div class="carousel-slides">
+        <div class="slide">
+            <img src="car1.jpg" alt="Slide 1">
+        </div>
+        <div class="slide">
+            <img src="car2.jpg" alt="Slide 2">
+        </div>
+    </div>
+    <button class="next" onclick="nextSlide()"><i class="fas fa-chevron-right"></i></button>
+</div>
+
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-columns">
+            <div class="footer-column">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#"><i class="fas fa-map-marker-alt"></i> Store Locator</a></li>
+                    <li><a href="#"><i class="fas fa-book"></i> Buying Guide</a></li>
+                    <li><a href="#"><i class="fas fa-ruler"></i> Frame Size</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <ul>
+                    <li><a href="#"><i class="fas fa-briefcase"></i> We Are Hiring</a></li>
+                    <li><a href="#"><i class="fas fa-hand-holding-usd"></i> Refer And Earn</a></li>
+                    <li><a href="#"><i class="fas fa-info-circle"></i> About Us</a></li>
+                    <li><a href="#"><i class="fas fa-tag"></i> Lenskart Coupons</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Help</h3>
+                <ul>
+                    <li><a href="#"><i class="fas fa-question-circle"></i> FAQ's</a></li>
+                    <li><a href="#"><i class="fas fa-exclamation-triangle"></i> Grievance Redressal</a></li>
+                    <li><a href="#"><i class="fas fa-heartbeat"></i> Cardemi</a></li>
+                </ul>
+            </div>
+            <div class="footer-column app-links">
+                <div>
+                    <a href="#"><img src="google-play.png" alt="Google Play"></a>
+                    <a href="#"><img src="app-store.png" alt="App Store"></a>
+                </div>
+                <p>Download Lenskart App to buy Eyeglasses, Sunglasses and Contact Lenses</p>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <div class="footer-links">
+                <a href="#">T & C</a>
+                <a href="#">Privacy</a>
+                <a href="#">Disclaimer</a>
+            </div>
+            <div class="version">
+                Version 1.0.0
+            </div>
+            <div class="social-icons">
+                <span>Follow Us</span>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fas fa-comment"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
